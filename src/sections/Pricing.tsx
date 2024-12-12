@@ -130,7 +130,7 @@ export const Pricing = () => {
                   {features.map((feature) => (
                     <li className="text-sm flex items-center gap-4">
                       <CheckIcon className="h-6 w-6" />
-                      <span>{feature}</span>
+                      <span key={title}>{feature}</span>
                     </li>
                   ))}
                 </ul>
